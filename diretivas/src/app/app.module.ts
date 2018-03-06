@@ -10,6 +10,12 @@ import { DiretivaNgforComponent } from './diretiva-ngfor/diretiva-ngfor.componen
 import { DiretivaNgclassComponent } from './diretiva-ngclass/diretiva-ngclass.component';
 import { DiretivaNgstyleComponent } from './diretiva-ngstyle/diretiva-ngstyle.component';
 import { OperadorElvisComponent } from './operador-elvis/operador-elvis.component';
+import { ExemploNgContentComponent } from './exemplo-ng-content/exemplo-ng-content.component';
+import { HighlightMouseDirective } from './shared/highlight-mouse.directive';
+import { FundoAmareloDirective } from './shared/fundo-amarelo.directive';
+import { DiretivasCustomizadasComponent } from './diretivas-customizadas/diretivas-customizadas.component';
+import { HighlightDirective } from './shared/highlight.directive';
+import { NgElseDirective } from './shared/ng-else.directive';
 
 
 
@@ -22,6 +28,12 @@ import { OperadorElvisComponent } from './operador-elvis/operador-elvis.componen
     DiretivaNgclassComponent,
     DiretivaNgstyleComponent,
     OperadorElvisComponent,
+    ExemploNgContentComponent,
+    HighlightMouseDirective,
+    FundoAmareloDirective,
+    DiretivasCustomizadasComponent,
+    HighlightDirective,
+    NgElseDirective,
     
   ],
   imports: [
