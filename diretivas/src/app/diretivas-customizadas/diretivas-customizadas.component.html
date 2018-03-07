@@ -14,11 +14,30 @@
 
 
 <div *ngIf="mostrarCursos">
-    Lista de cursos aqui.
-  </div>
-  <div *ngIf="!mostrarCursos" >
-    Não existem cursos para serem listados.
-  </div>
+  Lista de cursos aqui.
+</div>
+<div *ngIf="!mostrarCursos" >
+  Não existem cursos para serem listados.
+</div>
 
   <br>
 <button (click)="onMostrarCursos()">Mostar ou esconder cursos</button>
+
+<h5>Diretiva Estrutura customizada - ngElse</h5>
+
+<div *ngIf="mostrarCursos">
+  Lista de cursos aqui.
+</div>
+<div *ngElse="mostrarCursos" >
+  Não existem cursos para serem listados.
+</div>
+
+<br>
+<button (click)="onMostrarCursos()">Mostar ou esconder cursos</button>
+<br>
+<!-- 
+<template [ngElse]="mostrarCursos">
+  <div>
+    Não existem cursos para serem listados.
+  </div>
+</template> -->
