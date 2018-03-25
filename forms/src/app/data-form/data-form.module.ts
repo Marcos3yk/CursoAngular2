@@ -8,16 +8,12 @@ import { SharedModule } from '../shared/shared.module';
 
 @NgModule({
   imports: [
-    CommonModule, 
-    ReactiveFormsModule,
     SharedModule,
-    HttpModule
   ],
   declarations: [
     DataFormComponent
   ],
   providers: [
-    ConsultaCepService
   ]
 })
 export class DataFormModule { }
